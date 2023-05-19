@@ -4,7 +4,15 @@
   "description": "An npm package that simplifies sending push notifications using Firebase Cloud Messaging (FCM) in Node.js applications.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "keywords": [
     "nodejs",
@@ -21,10 +29,16 @@
   "license": "MIT",
   "devDependencies": {
     "firebase-admin": "^11.8.0",
+    "prettier": "^2.8.8",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^5.0.4"
   },
   "homepage": "https://github.com/owner/project#readme",
   "bugs": {
     "url": "https://github.com/mustafahere/node-firebase-push-notification/issues"
-  }
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
