@@ -13,10 +13,18 @@
     "fcm",
     "push-notifications"
   ],
-  "author": "mustafahere",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mustafahere/node-firebase-push-notification"
+  },
+  "author": "Mustafa Jawed <mustafaahere.web.app> (https://mustafaahere.web.app/)",
   "license": "MIT",
   "devDependencies": {
     "firebase-admin": "^11.8.0",
     "typescript": "^5.0.4"
+  },
+  "homepage": "https://github.com/owner/project#readme",
+  "bugs": {
+    "url": "https://github.com/mustafahere/node-firebase-push-notification/issues"
   }
 }
