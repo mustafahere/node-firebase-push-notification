@@ -9,13 +9,13 @@ Node Firebase Push Notification is an npm package that simplifies sending push n
 
 To install the package, use npm:
 
-```shell
+```bash
 npm install node-firebase-push-notification
 ```
 
 ## Usage
 
-```
+```js
 const { FirebaseAdmin } = require('node-firebase-push-notification');
 
 // Initialize FirebaseAdmin with your credentials
