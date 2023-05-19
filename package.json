@@ -1,15 +1,22 @@
 {
-    "name": "node-firebase-push-notification",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "mustafahere",
-    "license": "ISC",
-    "devDependencies": {
-        "firebase-admin": "^11.8.0",
-        "typescript": "^5.0.4"
-    }
+  "name": "node-firebase-push-notification",
+  "version": "1.0.0",
+  "description": "An npm package that simplifies sending push notifications using Firebase Cloud Messaging (FCM) in Node.js applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "firebase",
+    "typescript",
+    "fcm",
+    "push-notifications"
+  ],
+  "author": "mustafahere",
+  "license": "MIT",
+  "devDependencies": {
+    "firebase-admin": "^11.8.0",
+    "typescript": "^5.0.4"
+  }
 }
