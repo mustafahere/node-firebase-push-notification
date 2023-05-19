@@ -1,6 +1,6 @@
 {
   "name": "node-firebase-push-notification",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An npm package that simplifies sending push notifications using Firebase Cloud Messaging (FCM) in Node.js applications.",
   "main": "index.js",
   "scripts": {
