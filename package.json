@@ -1,0 +1,15 @@
+{
+    "name": "node-firebase-push-notification",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "mustafahere",
+    "license": "ISC",
+    "devDependencies": {
+        "firebase-admin": "^11.8.0",
+        "typescript": "^5.0.4"
+    }
+}
