@@ -44,7 +44,7 @@ console.error('Error sending push notification:', error);
 });
 ```
 
-Please remember to replace the placeholders such as `'your-project-id'`, `'your-private-key'`, `'your-client-email'`, `'your-database-url'`, `'your-username'`, and `'link-to-your-documentation'` with the appropriate values for your project.
+Please remember to replace the placeholders such as `'your-project-id'`, `'your-private-key'`, `'your-client-email'`, `'your-database-url'` with the appropriate values for your project.
 
 ## Contributing
 
